@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #4AA3B5;
+    color: white;
+}
+
+.header {
+    background-color: #5C4AB5;
+    overflow: auto;
+    position: sticky;
+}
+
+.home {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    color: white;
+    float: left;
+    padding: 20px;
+    font-size: 15pt;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.menu-list:hover {
+    background-color: #4A6EB5;
+}
+
+.perfil {
+    margin: auto;
+    margin-top:40px;
+    width: 95%;
+    overflow: hidden;
+    position: relative;
+}
+
+.perfil-image {
+    border-radius: 500px;
+    width: 500px;
+    float: left;
+}
+
+.quemsou {
+    background-color: #4AA3B5;
+    width: 51%;
+    left: 42%;
+    top: 20%;
+    float: left;
+    z-index: 1;
+    position: absolute;
+}
+
+.quadrado {
+    background-color: rgb(255, 255, 0);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.paragrafo {
+    font-size: 14pt;
+}
+
+.redes {
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.redes:hover {
+    background-color: #5dbccf;
+    border-radius: 5px;
+}
+
+.sobre {
+    
+}
