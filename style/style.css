@@ -9,12 +9,14 @@ ul {
 }
 
 body {
-    background-color: #4AA3B5;
+    background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?cs=srgb&dl=pexels-danny-meneses-943096.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
 .header {
-    background-color: #5C4AB5;
+    background-color: rgb(85, 83, 83);
     overflow: auto;
     top: 0px;
     position: sticky;
@@ -44,7 +46,7 @@ body {
 
 .perfil {
     margin: auto;
-    margin-top:40px;
+    margin-top: 70px;
     width: 95%;
     overflow: hidden;
     position: relative;
@@ -57,24 +59,11 @@ body {
 }
 
 .quemsou {
-    background-color: #4AA3B5;
-    width: 51%;
-    left: 42%;
-    top: 18%;
+    width: 46%;
     float: left;
-    z-index: 1;
-    position: absolute;
+    margin-left: 30px;
     border-radius: 5px;
-}
-
-.quadrado {
-    background-color: rgb(255, 255, 0);
-    border-radius: 5px;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 100%;
-    transform: translateX(-100%);
+    text-shadow:  2px 2px 2px rgb(85, 83, 83);
 }
 
 .paragrafo {
@@ -84,10 +73,11 @@ body {
 .redes {
     margin-left: 10px;
     overflow: hidden;
+    padding: 2px;
 }
 
 .redes:hover {
-    background-color: #5dbccf;
+    background-color: rgb(85, 83, 83);
     border-radius: 5px;
 }
 
@@ -106,4 +96,14 @@ body {
 .description-image {
     float: right;
     margin-top: 20px;
+}
+
+.clear {
+    clear: left;
+}
+
+.habilidades {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
 }
