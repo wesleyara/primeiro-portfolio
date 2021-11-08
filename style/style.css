@@ -87,7 +87,7 @@ body {
     margin-top: 50px;
 }
 
-.description {
+.description-sobre {
     float: left;
     margin-top: 20px;
     width: 60%;
@@ -106,4 +106,33 @@ body {
     width: 95%;
     margin: auto;
     margin-top: 50px;
+}
+
+.description-habilidade {
+    margin-top: 20px;
+    float: left;
+    width: 25%;
+}
+
+.skill {
+    padding: 15px;
+}
+
+.skill:hover {
+    background-color: rgb(85, 83, 83);
+}
+
+.description-hab-images {
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    width: 320px;
+}
+
+.image-description {
+    float: left;
+    margin-left: 40px;
+    width: 35%;
+    padding: 20px;
+    text-align: justify;
 }

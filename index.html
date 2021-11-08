@@ -18,7 +18,7 @@
 
         <ul class="menu">
             <a href="#sobre"><li class="menu-list">Sobre</li></a> 
-            <li class="menu-list">Habilidades</li>
+            <a href="#habilidades"><li class="menu-list">Habilidades</li></a> 
             <li class="menu-list">Projetos</li>
             <li class="menu-list">Contato</li>
         </ul>
@@ -51,7 +51,7 @@
     
     <div id="sobre" class="sobre">
         <h2 style="font-size: 26pt;">Sobre</h2>
-        <div class="description">
+        <div class="description-sobre">
             <p class="paragrafo">
                 Meu nome é Wesley Gomes de Araújo, sou graduado em Licenciatura em Matemática pela Universidade de Pernambuco (2016-2021). Já atuei como professor de matemática na rede pública de ensino. Sempre fissurado por números e programação, iniciei no ano de 2021 os estudos sobre programação, especificamente algumas linguagens como HTML, CSS e JavaScript.
             </p>
@@ -65,7 +65,7 @@
             </p>
             <br>
             <p class="paragrafo">
-                Apaixonado por música, minha banda favorita é Red Hot Chili Peppers, e como bom geek, gosto muito de RPG de mesa, séries, animes e HQ's. Enfim, isso é um pouco que eu queria contar sobre mim.
+                Apaixonado por música, minha banda favorita é o Red Hot Chili Peppers, e como bom geek, gosto muito de RPG de mesa, séries, animes e HQ's. Enfim, isso é um pouco que eu queria contar sobre mim.
             </p>
         </div>
 
@@ -76,9 +76,26 @@
     </div>
 
     <div class="clear"></div>
-    
-    <div class="habilidades">
+
+    <div id="habilidades" class="habilidades">
         <h2 style="font-size: 26pt;">Habilidades</h2>
+        <div class="description-habilidade">
+            <ul style="font-size: 14pt;" class="skill-list">
+                <li onmouseenter="htmlenter()" onmouseout="htmlexit()" class="skill">HTML</li>
+                <li onmouseenter="cssenter()" onmouseout="cssexit()" class="skill">CSS</li>
+                <li onmouseenter="jsenter()" onmouseout="jsexit()" class="skill">JavaScript</li>
+                <li onmouseenter="pupenter()" onmouseout="pupexit()" class="skill">Puppeteer</li>
+                <li onmouseenter="nodenter()" onmouseout="nodexit()" class="skill">Node.js</li>
+            </ul>
+        </div>
+
+        <div class="description-hab-images">
+
+        </div>
+
+        <div class="image-description">
+            
+        </div>
     </div>
 
     <script src="/script/script.js"></script>
