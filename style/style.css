@@ -16,7 +16,9 @@ body {
 .header {
     background-color: #5C4AB5;
     overflow: auto;
+    top: 0px;
     position: sticky;
+    z-index: 2;
 }
 
 .home {
@@ -58,14 +60,16 @@ body {
     background-color: #4AA3B5;
     width: 51%;
     left: 42%;
-    top: 20%;
+    top: 18%;
     float: left;
     z-index: 1;
     position: absolute;
+    border-radius: 5px;
 }
 
 .quadrado {
     background-color: rgb(255, 255, 0);
+    border-radius: 5px;
     width: 200px;
     height: 200px;
     position: absolute;
@@ -88,5 +92,18 @@ body {
 }
 
 .sobre {
-    
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.description {
+    float: left;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.description-image {
+    float: right;
+    margin-top: 20px;
 }
