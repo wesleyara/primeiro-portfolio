@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+}
+
 .header {
     background-color: rgb(85, 83, 83);
     overflow: auto;
@@ -135,4 +139,23 @@ body {
     width: 35%;
     padding: 20px;
     text-align: justify;
+}
+
+.projetos {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.description-projetos {
+    margin-top: 20px;
+    float: left;
+    width: 30%;
+    text-align: justify;
+}
+
+.project-list {
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
 }
