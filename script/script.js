@@ -2,6 +2,7 @@
 var image = document.querySelector(".description-hab-images")
 var descriptionImage = document.querySelector(".image-description")
 
+// Início das habilidades.
 
 function htmlenter() {
     image.style.cssText = `
@@ -182,3 +183,9 @@ function nodexit() {
 
     descriptionImage.innerHTML = ""
 }
+
+// Final das habilidades.
+
+// Início dos projetos.
+
+var descriptionProjeto = document.querySelector('.description-project')
