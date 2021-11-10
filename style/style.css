@@ -178,4 +178,32 @@ a {
     width: 95%;
     margin: auto;
     margin-top: 20px;
+    position: relative;
+}
+
+.containerBody {
+    overflow: auto;
+    margin: auto;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px rgb(85, 83, 83);
+}
+
+.contact {
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+}
+
+.contact1 {
+    margin-top: 20px; 
+    margin-left: 50px;
+    float: left;
+}
+
+.contact2 {
+    margin-top: 20px; 
+    margin-left: 50px;
+    float: left;
 }
