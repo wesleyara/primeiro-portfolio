@@ -1,6 +1,10 @@
 # Meu portfólio.
 
+![image-pagina](https://user-images.githubusercontent.com/89321125/141198500-4b9f4ba7-568b-4bb8-afb9-51bc2a6f94da.PNG)
+
 Olá, me chamo Wesley Gomes de Araújo e esse repositório é dedicado a criação do meu primeiro portfólio profissional.
+
+Link para acessar o site: https://wesleyaraportfolio.netlify.app/
 
 ### Linguagens utilizadas:
 <div style="display: inline_block;">
