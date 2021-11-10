@@ -143,8 +143,10 @@ a {
 
 .projetos {
     width: 95%;
+    height: 330px;
     margin: auto;
     margin-top: 50px;
+    overflow: auto;
 }
 
 .description-projetos {
@@ -160,10 +162,20 @@ a {
     margin-left: 40px;
 }
 
+.rede:hover {
+    background-color: rgb(85, 83, 83);
+}
+
 .description-project {
-    text-align: center;
+    text-align: justify;
     float: left;
     margin-left: 50px;
     width: 400px;
     padding: 20px;
+}
+
+.contato {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
 }
