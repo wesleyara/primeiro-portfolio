@@ -22,8 +22,6 @@ a {
 .header {
     background-color: rgb(85, 83, 83);
     overflow: auto;
-    top: 0px;
-    position: sticky;
     z-index: 2;
 }
 
