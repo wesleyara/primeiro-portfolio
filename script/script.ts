@@ -1,23 +1,23 @@
 
-var image = document.querySelector(".description-hab-images")
-var descriptionImage = document.querySelector(".image-description")
+var images = document.querySelector(".description-hab-images") as HTMLDivElement;
+var descriptionImages = document.querySelector(".image-description") as HTMLDivElement;
 
 // Início das habilidades.
 
 function htmlenter() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    image.innerHTML = `
+    images.innerHTML = `
         <img width="280px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
     `
 
-    descriptionImage.innerHTML = `
+    descriptionImages.innerHTML = `
         <h2>O que é?</h2>
         <br>
         <p class="paragrafo">
@@ -27,33 +27,33 @@ function htmlenter() {
 }
 
 function htmlexit() {  
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: ;
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: ;
     `
 
-    image.innerHTML = ""
+    images.innerHTML = ""
 
-    descriptionImage.innerHTML = ""
+    descriptionImages.innerHTML = ""
 }
 
 function cssenter() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    image.innerHTML = `
+    images.innerHTML = `
         <img width="280px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"/>
     `
 
-    descriptionImage.innerHTML = `
+    descriptionImages.innerHTML = `
         <h2>O que é?</h2>
         <br>
         <p class="paragrafo">
@@ -63,33 +63,33 @@ function cssenter() {
 }
 
 function cssexit() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: ;
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: ;
     `
 
-    image.innerHTML = ""
+    images.innerHTML = ""
 
-    descriptionImage.innerHTML = ""
+    descriptionImages.innerHTML = ""
 }
 
 function jsenter() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    image.innerHTML = `
+    images.innerHTML = `
         <img width="280px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
     `
 
-    descriptionImage.innerHTML = `
+    descriptionImages.innerHTML = `
         <h2>O que é?</h2>
         <br>
         <p class="paragrafo">
@@ -99,33 +99,33 @@ function jsenter() {
 }
 
 function jsexit() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: ;
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: ;
     `
 
-    image.innerHTML = ""
+    images.innerHTML = ""
 
-    descriptionImage.innerHTML = ""
+    descriptionImages.innerHTML = ""
 }
 
 function pupenter() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    image.innerHTML = `
+    images.innerHTML = `
         <img width="280px" src="/images/image-puppeteer.png"/>
     `
 
-    descriptionImage.innerHTML = `
+    descriptionImages.innerHTML = `
         <h2>O que é?</h2>
         <br>
         <p class="paragrafo">
@@ -135,33 +135,33 @@ function pupenter() {
 }
 
 function pupexit() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: ;
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: ;
     `
 
-    image.innerHTML = ""
+    images.innerHTML = ""
 
-    descriptionImage.innerHTML = ""
+    descriptionImages.innerHTML = ""
 }
 
 function nodenter() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: rgb(85, 83, 83);
     `
 
-    image.innerHTML = `
+    images.innerHTML = `
         <img width="280px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg"/>
     `
 
-    descriptionImage.innerHTML = `
+    descriptionImages.innerHTML = `
         <h2>O que é?</h2>
         <br>
         <p class="paragrafo">
@@ -171,24 +171,24 @@ function nodenter() {
 }
 
 function nodexit() {
-    image.style.cssText = `
+    images.style.cssText = `
         background-color: ;
     `
 
-    descriptionImage.style.cssText = `
+    descriptionImages.style.cssText = `
         background-color: ;
     `
 
-    image.innerHTML = ""
+    images.innerHTML = ""
 
-    descriptionImage.innerHTML = ""
+    descriptionImages.innerHTML = ""
 }
 
 // Final das habilidades.
 
 // Início dos projetos.
 
-var descriptionProjeto = document.querySelector('.description-project')
+var descriptionProjeto = document.querySelector('.description-project') as HTMLDivElement;
 
 function lojaenter() {
     descriptionProjeto.style.cssText = `
