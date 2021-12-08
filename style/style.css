@@ -141,7 +141,7 @@ a {
 
 .projetos {
     width: 95%;
-    height: 330px;
+    height: 320px;
     margin: auto;
     margin-top: 50px;
     overflow: auto;
@@ -158,6 +158,12 @@ a {
     float: left;
     margin-top: 20px;
     margin-left: 40px;
+    height: 225px;
+    overflow: auto;
+}
+
+.rede {
+    padding: 2px;
 }
 
 .rede:hover {
@@ -170,6 +176,18 @@ a {
     margin-left: 50px;
     width: 400px;
     padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.projects-imgs {
+    float: left;
+}
+
+.projects {
+    font-size: 35px;
 }
 
 .contato {
