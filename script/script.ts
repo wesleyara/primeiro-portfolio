@@ -184,6 +184,42 @@ function nodexit() {
     descriptionImages.innerHTML = ""
 }
 
+function tsenter() {
+    images.style.cssText = `
+        background-color: rgb(85, 83, 83);
+    `
+
+    descriptionImages.style.cssText = `
+        background-color: rgb(85, 83, 83);
+    `
+
+    images.innerHTML = `
+        <img width="280px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"/>
+    `
+
+    descriptionImages.innerHTML = `
+        <h2>O que é?</h2>
+        <br>
+        <p class="paragrafo">
+        TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.
+        </p>
+    `
+}
+
+function tsexit() {
+    images.style.cssText = `
+        background-color: ;
+    `
+
+    descriptionImages.style.cssText = `
+        background-color: ;
+    `
+
+    images.innerHTML = ""
+
+    descriptionImages.innerHTML = ""
+}
+
 // Final das habilidades.
 
 // Início dos projetos.
@@ -321,6 +357,90 @@ function codeenter() {
 }
 
 function codeexit() {
+    descriptionProjeto.style.cssText = `
+    background-color: ;
+    `
+
+    descriptionProjeto.innerHTML = ""
+}
+
+function churrasenter() {
+    descriptionProjeto.style.cssText = `
+    background-color: rgb(85, 83, 83);
+    `
+
+    descriptionProjeto.innerHTML = `
+    <h2>Linguagens utilizadas:</h2>
+    <br>
+    <div style="display: inline_block;">
+        <img align="center" alt="Wesley-JS" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+        <img align="center" alt="Wesley-HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+        <img align="center" alt="Wesley-CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+    </div>
+    <br>
+    <p>
+    O churrascômetro basicamente utiliza dos dados que o cliente coloca para calcular tudo que vai ser necessário em seu churrasco, desde a quantidade de cada item, até o valor do mesmo.
+    </p>
+    `
+}
+
+function churrasexit() {
+    descriptionProjeto.style.cssText = `
+    background-color: ;
+    `
+
+    descriptionProjeto.innerHTML = ""
+}
+
+function coinenter() {
+    descriptionProjeto.style.cssText = `
+    background-color: rgb(85, 83, 83);
+    `
+
+    descriptionProjeto.innerHTML = `
+    <h2>Linguagens utilizadas:</h2>
+    <br>
+    <div style="display: inline_block;">
+        <img align="center" alt="Wesley-JS" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+        <img align="center" alt="Wesley-HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+        <img align="center" alt="Wesley-CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+    </div>
+    <br>
+    <p>
+    O Coin Converter é um conversor online que consume uma API de cotações de moeda, fazendo a conversão e retornando para o cliente o valor convertido.
+    </p>
+    `
+}
+
+function coinexit() {
+    descriptionProjeto.style.cssText = `
+    background-color: ;
+    `
+
+    descriptionProjeto.innerHTML = ""
+}
+
+function gruenter() {
+    descriptionProjeto.style.cssText = `
+    background-color: rgb(85, 83, 83);
+    `
+
+    descriptionProjeto.innerHTML = `
+    <h2>Linguagens utilizadas:</h2>
+    <br>
+    <div style="display: inline_block;">
+        <img align="center" alt="Wesley-JS" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+        <img align="center" alt="Wesley-PUPPE" src="https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=Puppeteer&logoColor=white">
+        <img align="center" alt="Wesley-NODE" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+    </div>
+    <br>
+    <p>
+    Basicamente ele faz uso da biblioteca Puppeteer para acessar a página, preencher o formulário e informações importantes sobre o boleto e devolver um PDF pronto para realizar o pagamento, isso tudo de forma rápida e fácil.
+    </p>
+    `
+}
+
+function gruexit() {
     descriptionProjeto.style.cssText = `
     background-color: ;
     `
